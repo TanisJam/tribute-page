@@ -1,3 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     background-color: rgb(255, 235, 212);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header * {
+    margin: 1vw auto;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    padding: 1vw 0;
+    margin: 3vw 0vw;
+    background-color: beige;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#img-caption {
+    display: block;
+    margin: 0 auto;
 }

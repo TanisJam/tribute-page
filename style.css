@@ -2,15 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 html {
-    background-color: rgb(255, 235, 212);
+    background: linear-gradient(to right, #6190af, #ffe9c4);
 }
 
 header {
     display: flex;
     flex-direction: column;
+    background-color: hsla(165, 18%, 100%, 0.2);
+    margin: 0 5vw;
+    border-radius: 0 0 0.5em 0.5em;
+    box-shadow: 0px 0px 25px #2f3b3f33;
+}
+
+h1 {
+    padding: 2vw 0;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 1rem;
 }
 
 header * {
@@ -25,19 +41,76 @@ header * {
 #img-div {
     display: flex;
     flex-direction: column;
-    padding: 1vw 0;
-    margin: 3vw 0vw;
-    background-color: beige;
+    padding: 1vw 1vw;
+    margin: 3vw 1vw;
+    background-color: #6190af2c;
     flex-wrap: wrap;
+    border-radius: 0.5em;
 }
 
 img {
     max-width: 600px;
     width: 100%;
     margin: 0 auto;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 25px #3e414233;
 }
 
 #img-caption {
     display: block;
     margin: 0 auto;
+    padding: 1rem;
+    background-color: #d3dce233;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 25px #3e414233;
+}
+
+#tribute-info {
+    background-color: #ffe9c436;
+    margin: 0.3rem;
+    padding: 0.5rem;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 25px #3e414233;
+}
+
+#tribute-info p {
+    margin: 1vw 2vw;
+}
+
+#frases {
+    margin: 1rem 1.5rem;
+    padding: 2vw 2vw;
+    box-shadow: 0px 0px 25px #3e414233;
+    text-align: center;
+    border-radius: 0.5em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul * {
+    margin: 1vw;
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+ul *::first-letter {
+    font-size: 120%;
+    color: rgb(29, 29, 29);
+}
+
+blockquote {
+    margin: 2rem;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.712);
+    color: cornsilk;
+    padding: 1rem;
+    text-align: center;
+}
+
+a:visited {
+    color: cornsilk;
 }
